@@ -1,11 +1,11 @@
 # README - Programme "General GUI"
 
-//** Description **//
+## Description
 
 Le programme ""General GUI"" est un outil pratique créé pour afficher les premiers points GPS valides à partir des fichiers SRT générés par un drone (uniquement tester sur le DJI Mini 3 Pro). Ces points GPS sont ensuite enregistrés dans un fichier KML, qui peut être visualisé dans Google Earth ou tout autre outil compatible KML. Cela permet de faciliter la recherche de la bonne vidéo sur une carte.
 __________________________
 
-//** Formats valides **//
+## Formats valides
 
 Le programme recherche des coordonnées GPS dans les fichiers SRT sous le format suivant :
 Latitude et Longitude : un nombre décimal pouvant être positif ou négatif, au format: 12.345678 (six décimales ou moins après le point sont attendues).
@@ -21,7 +21,7 @@ latitude: 0.100000 longitude: -0.200000 (valeurs non nulles et valides).
 --------
 ______________________________________
 
-//** Fonctionnalités principales **//
+## Fonctionnalités principales
 
 1. **Sélection de dossier** :
    - Une fenêtre s'ouvre pour permettre à l'utilisateur de choisir le dossier à scanner (y compris les sous-dossiers).
@@ -37,7 +37,7 @@ ______________________________________
 
 _____________________________________
 
-//** Instructions d'utilisation **//
+## Instructions d'utilisation
 
 1. Ouvrez une console (Terminal ou PowerShell).
 2. Exécutez le fichier Python avec la commande suivante:
